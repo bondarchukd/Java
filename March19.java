@@ -7,7 +7,7 @@ class March19 {
 	public class FreshJuiceTest {
 
 		public static void main(String[] args) {
-		FreshJuice juice = nre FreshJuice();
+		FreshJuice juice = new FreshJuice();
 		juice.size = FreshJuice.FreshJuiceSize.MEDIUM;
 		System.out.println("Size: " + juice.size);
 
