@@ -12,7 +12,7 @@ public class Array{
 		
 		for (i=0, i < arr.length; i++) {
 
-			if (arr[i] > minElem) {
+			if (arr[i] < minElem) {
 
 				minElem = arr[i];
 			}
