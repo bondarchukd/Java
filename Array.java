@@ -6,11 +6,20 @@ public class Array {
 
 		System.out.println("Here is array of integers: \n");
 
-		System.out.println("Determine min and max element: \n");
+			for (int i = 0; i<arr.length; i++) {
+
+				System.out.println(arr[i] + " ");
+			
+			}
+
+
+		System.out.println("\n Determine min and max element: \n");
 	
+		
+
 		int minElem = arr[0]; 
 		
-		for (i=0, i < arr.length; i++) {
+		for (int i = 0; i < arr.length; i++) {
 
 			if (arr[i] < minElem) {
 
@@ -19,9 +28,12 @@ public class Array {
 		}
 	System.out.println("Minimum element of array is " + minElem);
 
+	
+
+	
 	int maxElem = arr[0];
 
-	for(i=0, i < arr.length; i++) {
+	for(int i = 0; i < arr.length; i++) {
 
 		if(arr[i] > maxElem) {
 
